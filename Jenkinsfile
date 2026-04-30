@@ -6,13 +6,7 @@ pipeline {
     }
 
     stages {
-        stage('Limpieza') {
-            steps {
-                echo 'Limpiando espacio de trabajo....'
-                deleteDir()
-            }
-        }
-
+        
         stage('Instalacion') {
             steps {
                 echo 'Descargando librerias de produccion...'

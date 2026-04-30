@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo [TEST] Pruebas unitarias exitosas && exit 0",
-    "build": "echo [BUILD] Empaquetado completado && if not exist dist mkdir dist && copy index.js dist"
+    "test": "echo \"[TEST] Pruebas unitarias exitosas\" && exit 0",
+    "build": "echo \"[BUILD] Empaquetado completado\" && mkdir -p dist && cp index.js dist/"
   },
   "keywords": [],
   "author": "",

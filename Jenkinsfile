@@ -28,10 +28,13 @@ pipeline {
         }
 
         stage('Compilacion') {
-            echo 'Generando artefactos finales....'
-            sh 'npm run build'
+            steps{
+                echo 'Generando artefactos finales....'
+                sh 'npm run build'
         }
     }
+}
+
 
 
     post {

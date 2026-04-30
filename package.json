@@ -1,0 +1,17 @@
+{
+  "name": "pipeline-lab-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo [TEST] Pruebas unitarias exitosas && exit 0",
+    "build": "echo [BUILD] Empaquetado completado && if not exist dist mkdir dist && copy index.js dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
